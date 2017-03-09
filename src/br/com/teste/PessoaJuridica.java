@@ -1,6 +1,6 @@
 package br.com.teste;
 
-public class PessoaJuridica implements IPessoa {
+public class PessoaJuridica {
 	
 	private int cnpj;
 
