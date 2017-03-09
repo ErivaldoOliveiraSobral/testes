@@ -4,7 +4,6 @@ public abstract class Pessoa {
 	
 	private String nome;
 	private int telefone;
-	private int cpf;
 	
 	public String getNome() {
 		return nome;
@@ -18,13 +17,4 @@ public abstract class Pessoa {
 	public void setTelefone(int telefone) {
 		this.telefone = telefone;
 	}
-	public int getCpf() {
-		return cpf;
-	}
-	public void setCpf(int cpf) {
-		this.cpf = cpf;
-	}
-	
-	
-
 }
