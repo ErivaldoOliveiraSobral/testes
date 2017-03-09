@@ -4,9 +4,8 @@ public class PessoaJuridica implements IPessoa {
 	
 	private int cnpj;
 
-	@Override
-	public int setCpf(int cpf) {
-		return this.cnpj = cpf;
+	public void setCnpj(int cnpj) {
+		this.cnpj = cnpj;
 	}
 
 	public int getCnpj() {
